@@ -11,7 +11,7 @@ const Hero = () => {
           </h1>
           <div className="w-16 h-px bg-gray-900 mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl text-gray-600 font-light tracking-wide">
-            Software/Data Engineer
+            Data Engineer
           </p>
         </div>
 
