@@ -6,21 +6,21 @@ const Experience = () => {
       title: "Clinical Data Engineer Intern",
       company: "Johnson & Johnson Electrophysiology",
       period: "June 2025 - Present",
-      description: "Engineered and optimized cloud data pipelines for analytics and AI models. Developed scalable ETL solutions for large-scale data ingestion.",
+      description: "Boosted a clinical trial Generative AI model's classification accuracy from 75% to 95% by debugging the AWS data pipeline and implementing advanced prompt engineering. Developed key Python ETL components and optimized complex SQL queries in Redshift to automate data ingestion and enhance data analysis workflows for the Biostatistics and Data Management team.",
     technologies: ["Python", "AWS", "SQL", "Redshift", "R", "Generative AI", "Prompt Engineering"]
     },
     {
   title: "Research Assistant",
   company: "Texas Tech University",
   period: "October 2024 - May 2025",
-  description: "Developed a full-stack network visualization tool for real-time cybersecurity analysis. Optimized backend data processing for large-scale datasets.",
+  description: "Developed MalScape, a full-stack network visualization tool using Python (Flask, Pandas) and D3.js to analyze network activity for cybersecurity applications. Engineered advanced analyst features, including interactive clustering and dynamic filtering, to optimize data processing workflows and accelerate the detection of network anomalies",
   technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "Javascript"]
     },
         {
         title: "Software Engineer Intern",
         company: "ProofPerks",
         period: "August 2024 - December 2024",
-        description: "Drove database performance by optimizing queries and implementing caching strategies. Engineered biometric authentication models and developed high-performance data pipelines on Google Cloud Platform.",
+        description: "Contributed to the development of Biometric and Age Verification models at ProofPerks by cleaning, enriching, and extending datasets for training machine learning models. Improved data quality and model accuracy through advanced data preprocessing, feature engineering, and augmentation techniques, directly enhancing the performance of ProofPerks’ core technology.",
         technologies: ["Python", "PostgreSQL", "Redis", "GCP", "SQL", "Docker", "Node.js", "Git"]
 }
   ];
