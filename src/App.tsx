@@ -17,7 +17,6 @@ function App() {
     <div className={`min-h-screen bg-gray-50 transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
       <main>
         <Hero />
-        <About />
         <Experience />
         <Contact />
       </main>
