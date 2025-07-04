@@ -15,12 +15,6 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="space-y-4 mb-12">
-          <p className="text-gray-500 font-mono text-sm">
-            Always Learning
-          </p>
-        </div>
-
         <div className="animate-bounce">
           <ArrowDown className="w-5 h-5 text-gray-400 mx-auto" />
         </div>
