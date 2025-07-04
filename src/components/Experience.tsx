@@ -17,7 +17,7 @@ const Experience = () => {
   technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "Javascript"]
     },
         {
-        title: "Software Developer Intern",
+        title: "Software Engineer Intern",
         company: "ProofPerks",
         period: "August 2024 - December 2024",
         description: "Drove database performance by optimizing queries and implementing caching strategies. Engineered biometric authentication models and developed high-performance data pipelines on Google Cloud Platform.",
