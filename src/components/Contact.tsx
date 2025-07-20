@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin, FileTextIcon } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-4 bg-white">
+    <section id="contact" className="py-20 px-6 sm:px-12 bg-white">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex justify-center gap-4 sm:gap-8 mb-12">
           <a 
