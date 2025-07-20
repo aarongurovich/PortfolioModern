@@ -6,21 +6,21 @@ const Experience = () => {
       title: "Clinical Data Engineer Intern",
       company: "Johnson & Johnson Electrophysiology",
       period: "June 2025 - Present",
-      description: "Boosted a clinical trial Generative AI model's classification accuracy from 75% to 98% by debugging the AWS data pipeline and implementing advanced prompt engineering. Developed key Python ETL components and optimized complex SQL queries in Redshift to automate data ingestion and enhance data analysis workflows for the Biostatistics and Data Management team.",
+      description: "During my internship at Johnson & Johnson, I significantly improved the accuracy of an AI system used to classify clinical data by optimizing how data is collected and processed. I worked closely with teams across the company to design and build interactive dashboards and chatbots that make it easier for clinical staff to explore and understand complex data in real time. I also enhanced the data pipelines to ensure reliable and efficient handling of device data, increasing the success rate of data ingestion to nearly perfect levels.",
     technologies: ["Python", "AWS", "SQL", "Redshift", "R", "Generative AI", "Prompt Engineering"]
     },
     {
   title: "Research Assistant",
   company: "Texas Tech University",
   period: "October 2024 - May 2025",
-  description: "Developed MalScape, a full-stack network visualization tool using Python (Flask, Pandas) and D3.js to analyze network activity for cybersecurity applications. Engineered advanced analyst features, including interactive clustering and dynamic filtering, to optimize data processing workflows and accelerate the detection of network anomalies",
+  description: "As a research assistant, I developed a full-stack web platform to visualize network data live, making it easier to analyze large-scale network activity. I built data processing tools to efficiently gather and handle network packets and applied data analysis methods to identify unusual or suspicious patterns in the network traffic. This work helped advance research on detecting anomalies in network behavior.",
   technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "Javascript"]
     },
         {
         title: "Software Engineer Intern",
         company: "ProofPerks",
         period: "August 2024 - December 2024",
-        description: "Contributed to the development of Biometric and Age Verification models at ProofPerks by cleaning, enriching, and extending datasets for training machine learning models. Improved data quality and model accuracy through advanced data preprocessing, feature engineering, and augmentation techniques, directly enhancing the performance of ProofPerks’ core technology.",
+        description: "During my internship at Proof Perks, I contributed to the development of Biometric and Age Verification models at ProofPerks by cleaning, enriching, and extending datasets for training machine learning models. Improved data quality and model accuracy through advanced data preprocessing, feature engineering, and augmentation techniques, directly enhancing the performance of ProofPerks’ core technology.",
         technologies: ["Python", "PostgreSQL", "Redis", "GCP", "SQL", "Docker", "Node.js", "Git"]
 }
   ];
