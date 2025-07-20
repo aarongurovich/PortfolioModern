@@ -6,7 +6,7 @@ const Experience = () => {
       title: "Clinical Data Engineer Intern",
       company: "Johnson & Johnson Electrophysiology",
       period: "June 2025 - Present",
-      description: "Boosted a clinical trial Generative AI model's classification accuracy from 75% to 95% by debugging the AWS data pipeline and implementing advanced prompt engineering. Developed key Python ETL components and optimized complex SQL queries in Redshift to automate data ingestion and enhance data analysis workflows for the Biostatistics and Data Management team.",
+      description: "Boosted a clinical trial Generative AI model's classification accuracy from 75% to 98% by debugging the AWS data pipeline and implementing advanced prompt engineering. Developed key Python ETL components and optimized complex SQL queries in Redshift to automate data ingestion and enhance data analysis workflows for the Biostatistics and Data Management team.",
     technologies: ["Python", "AWS", "SQL", "Redshift", "R", "Generative AI", "Prompt Engineering"]
     },
     {
