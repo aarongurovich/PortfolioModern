@@ -1,14 +1,10 @@
 import React from 'react';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin, FileTextIcon } from 'lucide-react';
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20 px-8 bg-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-light text-gray-900 mb-8 tracking-tight">
-          Get In Touch
-        </h2>
-
         <div className="flex justify-center space-x-8 mb-12">
           <a 
             href="mailto:aargurov@ttu.edu"
@@ -33,6 +29,18 @@ const Contact = () => {
             <Linkedin className="w-6 h-6 text-gray-400 group-hover:text-gray-600 transition-colors duration-200" />
             <span className="text-sm text-gray-600 font-mono">LinkedIn</span>
           </a>
+
+          <a
+            href="/AaronGurovichResume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Resume"
+            className="group flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+            >
+            <FileTextIcon className="w-6 h-6 text-gray-400 group-hover:text-gray-600 transition-colors duration-200" />
+            <span className="text-sm text-gray-600 font-mono">Resume</span>
+          </a>
+
         </div>
       </div>
     </section>

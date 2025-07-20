@@ -17,17 +17,9 @@ const Hero = () => {
 
         {/* Resume Button + Arrow */}
         <div className="flex flex-col items-center gap-8 mb-12">
-          <a
-            href="/AaronGurovichResume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="View Resume"
-            >
-            <FileText className="w-6 h-6 text-gray-600" />
-          </a>
 
           {/* Larger arrow with more spacing */}
-          <ArrowDown className="w-10 h-10 text-gray-400 animate-bounce" />
+          <ArrowDown className="w-10 h-10 mt-20 text-gray-400 animate-bounce" />
         </div>
       </div>
     </section>
