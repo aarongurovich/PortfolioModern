@@ -1,9 +1,9 @@
 import React from 'react';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, FileText } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-8">
+    <section className="min-h-screen flex flex-col items-center justify-center px-8">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 tracking-tight">
@@ -11,12 +11,23 @@ const Hero = () => {
           </h1>
           <div className="w-16 h-px bg-gray-900 mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl text-gray-600 font-light tracking-wide">
-            Data Engineer
+            Software Engineer
           </p>
         </div>
 
-        <div className="animate-bounce">
-          <ArrowDown className="w-5 h-5 text-gray-400 mx-auto" />
+        {/* Resume Button + Arrow */}
+        <div className="flex flex-col items-center gap-8 mb-12">
+          <a
+            href="/AaronGurovichResume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Resume"
+            >
+            <FileText className="w-6 h-6 text-gray-600" />
+          </a>
+
+          {/* Larger arrow with more spacing */}
+          <ArrowDown className="w-10 h-10 text-gray-400 animate-bounce" />
         </div>
       </div>
     </section>
