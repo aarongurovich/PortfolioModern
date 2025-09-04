@@ -5,24 +5,31 @@ const Experience = () => {
     {
       title: "Clinical Data Engineer Intern",
       company: "Johnson & Johnson Electrophysiology",
-      period: "June 2025 - Present",
-      description: "During my internship at Johnson & Johnson, I significantly improved the accuracy of an AI system used to classify clinical data by optimizing how data is collected and processed. I worked closely with teams across the company to design and build interactive dashboards and chatbots that make it easier for clinical staff to explore and understand complex data in real time. I also enhanced the data pipelines to ensure reliable and efficient handling of device data, increasing the success rate of data ingestion to nearly perfect levels.",
-    technologies: ["Python", "AWS", "SQL", "Redshift", "R", "Generative AI", "Prompt Engineering"]
+      period: "June 2025 - November 2025",
+      description: `• Architected an R Shiny site selection tool for clinical trials using a custom genetic algorithm, automating representative site selection and enhancing both trial efficiency and participant diversity.
+• Boosted a Generative AI pipeline's classification accuracy from 75% to 98% by optimizing data ingestion, applying advanced prompt engineering, and refining AWS infrastructure.
+• Engineered an AI-powered assistant in R that converts natural language into optimized SQL queries, avoiding costly, inaccurate AI ingestion and enabling faster, more reliable insights in R Shiny dashboards.
+• Co-authored 3 abstracts based on this work, selected for the Johnson & Johnson Data Science Showcase.`,
+      technologies: ["Python", "R", "AWS", "SQL", "Redshift", "Generative AI", "Prompt Engineering", "R Shiny"]
     },
     {
-  title: "Research Assistant",
-  company: "Texas Tech University",
-  period: "October 2024 - May 2025",
-  description: "As a research assistant, I developed a full-stack web platform to visualize network data live, making it easier to analyze large-scale network activity. I built data processing tools to efficiently gather and handle network packets and applied data analysis methods to identify unusual or suspicious patterns in the network traffic. This work helped advance research on detecting anomalies in network behavior.",
-  technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "Javascript"]
+      title: "Research Assistant",
+      company: "Texas Tech University",
+      period: "October 2024 - May 2025",
+      description: `• Developed a full-stack network analysis platform with Flask, JavaScript, D3.js, and Cytoscape.js, enabling interactive, multi-layered visualizations of complex network traffic.
+• Built a high-performance Python data pipeline to process and enrich raw packet captures, engineering over 20 analytical features on billions of data points.
+• Applied unsupervised machine learning (Louvain Clustering) to detect anomalous traffic patterns using Python's NetworkX library.`,
+      technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "JavaScript", "Cytoscape.js", "NetworkX"]
     },
-        {
-        title: "Software Engineer Intern",
-        company: "ProofPerks",
-        period: "August 2024 - December 2024",
-        description: "During my internship at Proof Perks, I contributed to the development of Biometric and Age Verification models at ProofPerks by cleaning, enriching, and extending datasets for training machine learning models. Improved data quality and model accuracy through advanced data preprocessing, feature engineering, and augmentation techniques, directly enhancing the performance of ProofPerks’ core technology.",
-        technologies: ["Python", "PostgreSQL", "Redis", "GCP", "SQL", "Docker", "Node.js", "Git"]
-}
+    {
+      title: "Software Engineer Intern",
+      company: "ProofPerks",
+      period: "August 2024 - December 2024",
+      description: `• Fine-tuned transformer models from Hugging Face for race/ethnicity verification, improving authentication reliability, deployed as scalable microservices on GCP.
+• Architected a cloud-native data pipeline on GCP to automate ingestion, preprocessing, and augmentation of large-scale biometric datasets for model training and real-time inference.
+• Implemented a multi-layer caching strategy with Redis, reducing database load and lowering API latency for real-time biometric verification.`,
+      technologies: ["Python", "PostgreSQL", "Redis", "GCP", "SQL", "Docker", "Node.js", "Git"]
+    }
   ];
 
   return (
@@ -50,9 +57,9 @@ const Experience = () => {
                 </div>
               </div>
 
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              <div className="text-gray-600 mb-4 leading-relaxed whitespace-pre-line">
                 {exp.description}
-              </p>
+              </div>
 
               <div className="flex flex-wrap gap-2">
                 {exp.technologies.map((tech) => (
