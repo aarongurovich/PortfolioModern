@@ -31,7 +31,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="/AaronGurovichResume.pdf"
+            href="/GurovichResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Resume"
