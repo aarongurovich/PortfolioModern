@@ -6,28 +6,21 @@ const Experience = () => {
       title: "Clinical Data Engineer Intern",
       company: "Johnson & Johnson Electrophysiology",
       period: "June 2025 - November 2025",
-      description: `• Architected an R Shiny site selection tool for clinical trials using a custom genetic algorithm, automating representative site selection and enhancing both trial efficiency and participant diversity.
-• Boosted a Generative AI pipeline's classification accuracy from 75% to 98% by optimizing data ingestion, applying advanced prompt engineering, and refining AWS infrastructure.
-• Engineered an AI-powered assistant in R that converts natural language into optimized SQL queries, avoiding costly, inaccurate AI ingestion and enabling faster, more reliable insights in R Shiny dashboards.
-• Co-authored 3 abstracts based on this work, selected for the Johnson & Johnson Data Science Showcase.`,
+      description: `As a Clinical Data Engineer Intern, I architected an R Shiny site selection tool powered by a custom genetic algorithm that automated representative site selection, improving trial efficiency and participant diversity. I significantly boosted a Generative AI pipeline’s classification accuracy from 75% to 98% by optimizing data ingestion, applying advanced prompt engineering, and refining AWS infrastructure. Additionally, I engineered an AI-powered assistant in R that converted natural language into optimized SQL queries, accelerating insights in R Shiny dashboards while reducing costs and inaccuracies. This work culminated in co-authoring three abstracts selected for presentation at the Johnson & Johnson Data Science Showcase.`,
       technologies: ["Python", "R", "AWS", "SQL", "Redshift", "Generative AI", "Prompt Engineering", "R Shiny"]
     },
     {
       title: "Research Assistant",
       company: "Texas Tech University",
       period: "October 2024 - May 2025",
-      description: `• Developed a full-stack network analysis platform with Flask, JavaScript, D3.js, and Cytoscape.js, enabling interactive, multi-layered visualizations of complex network traffic.
-• Built a high-performance Python data pipeline to process and enrich raw packet captures, engineering over 20 analytical features on billions of data points.
-• Applied unsupervised machine learning (Louvain Clustering) to detect anomalous traffic patterns using Python's NetworkX library.`,
+      description: `In my role as a Research Assistant, I developed a full-stack network analysis platform using Flask, JavaScript, D3.js, and Cytoscape.js to deliver interactive, multi-layered visualizations of complex network traffic. I built a high-performance Python data pipeline to process and enrich billions of raw packet captures, engineering over twenty analytical features to support advanced analysis. To uncover anomalies, I applied unsupervised machine learning methods such as Louvain Clustering with Python’s NetworkX library, enabling the detection of unusual patterns within massive-scale network datasets.`,
       technologies: ["Python", "Flask", "Pandas", "Numpy", "D3.js", "JavaScript", "Cytoscape.js", "NetworkX"]
     },
     {
       title: "Software Engineer Intern",
       company: "ProofPerks",
       period: "August 2024 - December 2024",
-      description: `• Fine-tuned transformer models from Hugging Face for race/ethnicity verification, improving authentication reliability, deployed as scalable microservices on GCP.
-• Architected a cloud-native data pipeline on GCP to automate ingestion, preprocessing, and augmentation of large-scale biometric datasets for model training and real-time inference.
-• Implemented a multi-layer caching strategy with Redis, reducing database load and lowering API latency for real-time biometric verification.`,
+      description: `As a Software Engineer Intern at ProofPerks, I fine-tuned transformer models from Hugging Face for race and ethnicity verification, improving authentication reliability and deploying them as scalable microservices on GCP. I designed and implemented a cloud-native data pipeline to automate ingestion, preprocessing, and augmentation of large-scale biometric datasets for both training and real-time inference. To enhance performance, I introduced a multi-layer caching strategy with Redis, which reduced database load and lowered API latency, ensuring efficient and accurate real-time biometric verification.`,
       technologies: ["Python", "PostgreSQL", "Redis", "GCP", "SQL", "Docker", "Node.js", "Git"]
     }
   ];
