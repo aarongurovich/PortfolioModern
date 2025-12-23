@@ -48,7 +48,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Resume_Aaron_Gurovich.pdf"
+            href="/AaronGurovich_NEWGRAD.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Resume"
